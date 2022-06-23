@@ -25,6 +25,8 @@ xc8-cc -mcpu=18f4525 functions1.c functions2.c main.c -o Program.hex
 Run `xc8-cc --help` for a complete list of compiler options. 
 For building libraries or creating makefiles [read the fine manual](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers#Documentation).
 
+### Demo of a PIC18F4525 displaying the answer to the ultimate question of life, the universe, and everything:
+
 <img src="https://user-images.githubusercontent.com/69062188/175383325-6cf37cd9-438e-46dd-a723-d68cfb9dfd51.jpg" width="80%"></img> 
 
 © Copyright 1998-2022 Microchip Technology Inc. All rights reserved.
