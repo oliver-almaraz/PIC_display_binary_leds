@@ -14,6 +14,10 @@
 *	Set the pins you wish to use for the LEDs as
 *	digital outputs and #define them as LED_BIT_<X>
 *	(see example below).
+* I suggest you place your definitions in a separate
+* header file and to #include it before this one to
+* avoid compiler warnings.
+*
 *	Pass an unsigned integer (maximum 8bit) and an
 *	unsigned char array (whose size must be at least the
 *	number of bits you need to display) to int_to_bits().
