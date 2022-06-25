@@ -22,7 +22,7 @@ Only one option is mandatory: the MCU you are compiling for:
 ```
 xc8-cc -mcpu=18f4525 functions1.c functions2.c main.c -o Program.hex
 ```
-XC8 generates a ton of output files, I suggest you write a [Makefile](https://github.com/oliver-almaraz/PIC_PWM_LED_Dimming/blob/main/README.md#bonus) with a *clean* function.
+XC8 generates a ton of output files, I suggest you write a [Makefile](https://github.com/oliver-almaraz/PIC_PWM_LED_Dimming/blob/main/Makefile) with a *clean* function.
 Run `xc8-cc --help` for a complete list of compiler options. 
 For building libraries or creating makefiles [read the fine manual](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers#Documentation).
 
